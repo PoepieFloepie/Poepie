@@ -4,6 +4,10 @@
     "videoURL": "https://raw.githubusercontent.com/AncientFalcon88/StreamingLogos/main/Netflix.mp4"
   },
   {
+    "title": "Netflix Kids",
+    "videoURL": "https://raw.githubusercontent.com/AncientFalcon88/StreamingLogos/main/Netflix.mp4"
+  },
+  {
     "title": "Disney+",
     "videoURL": "https://raw.githubusercontent.com/AncientFalcon88/StreamingLogos/main/Disney%2B.mp4"
   },
@@ -22,10 +26,6 @@
   {
     "title": "HBO Max",
     "videoURL": "https://raw.githubusercontent.com/AncientFalcon88/StreamingLogos/main/HBO%20Max.mp4"
-  },
-  {
-    "title": "Max",
-    "videoURL": "https://raw.githubusercontent.com/AncientFalcon88/StreamingLogos/main/Max.mp4"
   },
   {
     "title": "Hulu",
