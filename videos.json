@@ -1,28 +1,14 @@
-{
-  "videos": [
-    {
-      "name": "popular.mp4",
-      "url": "https://github.com/PoepieFloepie/Poepie/blob/main/popular.mp4",
-      "rawUrl": "https://raw.githubusercontent.com/PoepieFloepie/Poepie/main/popular.mp4",
-      "size": 463684,
-      "type": "video/mp4"
-    },
-    {
-      "name": "top-rated.mp4",
-      "url": "https://github.com/PoepieFloepie/Poepie/blob/main/top-rated.mp4",
-      "rawUrl": "https://raw.githubusercontent.com/PoepieFloepie/Poepie/main/top-rated.mp4",
-      "size": 139100,
-      "type": "video/mp4"
-    },
-    {
-      "name": "trending.mp4",
-      "url": "https://github.com/PoepieFloepie/Poepie/blob/main/trending.mp4",
-      "rawUrl": "https://raw.githubusercontent.com/PoepieFloepie/Poepie/main/trending.mp4",
-      "size": 328390,
-      "type": "video/mp4"
-    }
-  ],
-  "totalVideos": 3,
-  "repository": "PoepieFloepie/Poepie",
-  "createdAt": "2026-04-26"
-}
+[
+  {
+    "title": "popular",
+    "videoURL": "https://raw.githubusercontent.com/PoepieFloepie/Poepie/main/popular.mp4",
+  },
+  {
+    "title": "top-rated",
+    "videoURL": "https://raw.githubusercontent.com/PoepieFloepie/Poepie/main/top-rated.mp4",
+  },
+  {
+    "title": "trending",
+    "videoURL": "https://raw.githubusercontent.com/PoepieFloepie/Poepie/main/trending.mp4",
+  },
+]
