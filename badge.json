@@ -110,12 +110,11 @@
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/y6RSpcTz/HDTV.png",
       "isEnabled": true,
-      "pattern": "(?i)\\bhdtv\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
       "tagStyle": "filled"
-      "type": "filter"
     },
     {
       "id": "q-wr-6",
@@ -123,12 +122,11 @@
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/ZRRCLy5K/WEBRIP.png",
       "isEnabled": true,
-      "pattern": "(?i)\\b(?:web[-_. ]?rip|webrip)\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
       "tagStyle": "filled"
-      "type": "filter"
     },
     {
       "id": "q-wr-2-2",
@@ -136,12 +134,11 @@
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/DZZ8cbw3/BDRIP.png",
       "isEnabled": true,
-      "pattern": "(?i)\\b(?:bd[-_. ]?rip|bdrip)\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
       "tagStyle": "filled"
-      "type": "filter"
     },
     {
       "id": "q-wr-3-3",
@@ -149,12 +146,11 @@
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/RFFNTnVk/DVD.png",
       "isEnabled": true,
-      "pattern": "(?i)\\bdvd\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
       "tagStyle": "filled"
-      "type": "filter"
     },
     {
       "id": "q-wr-4-2",
@@ -162,12 +158,11 @@
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/xCCcPb12/DVDRIP.png",
       "isEnabled": true,
-      "pattern": "(?i)\\b(?:dvd[-_. ]?rip|dvdrip)\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
       "tagStyle": "filled"
-      "type": "filter"
     },
     {
       "id": "q-wr-5-2",
@@ -175,12 +170,11 @@
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/yddkTS8z/DVDSCR.png",
       "isEnabled": true,
-      "pattern": "(?i)\\b(?:dvd[-_. ]?scr|dvdscr)\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
       "tagStyle": "filled"
-      "type": "filter"
     },
     {
       "id": "q-wr-3-2-2",
@@ -188,12 +182,11 @@
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/jqfJ3Phb/CAM.png",
       "isEnabled": true,
-      "pattern": "(?i)\\bcam\\b",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
       "tagStyle": "filled"
-      "type": "filter"
     },
     {
       "borderColor": "#00000000",
