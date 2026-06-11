@@ -22,6 +22,13 @@
       "name": "Visual"
     },
     {
+      "id": "bit-depth",
+      "name": "Bit Depth",
+      "color": "#FFCC00",
+      "borderColor": "#00000000",
+      "isExpanded": false
+    },
+    {
       "borderColor": "#FF858283",
       "color": "#000000",
       "id": "ga",
@@ -36,13 +43,6 @@
       "name": "Encoder"
     },
     {
-      "id": "bit-depth",
-      "name": "Bit Depth",
-      "color": "#FFCC00",
-      "borderColor": "#00000000",
-      "isExpanded": false
-    },
-    {
       "borderColor": "#FF858283",
       "color": "#000000",
       "id": "gc",
@@ -50,11 +50,11 @@
       "name": "Channels"
     },
     {
+      "borderColor": "#FF858283",
+      "color": "#000000",
       "id": "gl",
-      "name": "Language",
-      "color": "#00000000",
-      "borderColor": "#FFFFFFFF",
-      "isExpanded": false
+      "isExpanded": false,
+      "name": "Language"
     },
     {
       "borderColor": "#FF858283",
@@ -345,6 +345,32 @@
       "type": "filter"
     },
     {
+      "id": "bit-depth-8bit-2",
+      "name": "8Bit",
+      "groupId": "bit-depth",
+      "isEnabled": true,
+      "pattern": "(?i)\\b8bit\\b",
+      "imageURL": "https://i.postimg.cc/sxdKFKhb/8Bit.png",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "type": "filter"
+    },
+    {
+      "id": "bit-depth-10bit",
+      "name": "10Bit",
+      "groupId": "bit-depth",
+      "isEnabled": true,
+      "pattern": "(?i)\\b10bit\\b",
+      "imageURL": "https://i.postimg.cc/0jRZgZwL/10Bit.png",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "type": "filter"
+    },
+    {
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-dtsx",
@@ -491,7 +517,7 @@
       "borderColor": "#00000000",
       "groupId": "ge",
       "id": "s-h265",
-      "imageURL": "https://i.postimg.cc/fRg1XRMz/H-265.png",
+      "imageURL": "https://i.postimg.cc/NFXL9wNQ/H-265.png",
       "isEnabled": true,
       "name": "H265 HEVC",
       "pattern": "(?i)\\b(?:x265|h[._-]?265|hevc)\\b",
@@ -504,39 +530,13 @@
       "borderColor": "#00000000",
       "groupId": "ge",
       "id": "s-h264",
-      "imageURL": "https://i.postimg.cc/Qdnv5djd/H-264.png",
+      "imageURL": "https://i.postimg.cc/prjyht0R/H-264.png",
       "isEnabled": true,
       "name": "H264 AVC",
       "pattern": "(?i)\\b(?:x264|h[._-]?264|avc)\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "id": "bit-depth-8bit",
-      "name": "8Bit",
-      "groupId": "bit-depth",
-      "isEnabled": true,
-      "pattern": "(?i)\\b(8[\\s._-]?bit|8b)\\b",
-      "imageURL": "https://i.postimg.cc/sxdKFKhb/8Bit.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#FFFFFF",
-      "tagStyle": "filled",
-      "type": "filter"
-    },
-    {
-      "id": "bit-depth-10bit",
-      "name": "10Bit",
-      "groupId": "bit-depth",
-      "isEnabled": true,
-      "pattern": "(?i)\\b(10[\\s._-]?bit|10b|hi10p)\\b",
-      "imageURL": "https://i.postimg.cc/0jRZgZwL/10Bit.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#FFFFFF",
-      "tagStyle": "filled",
       "type": "filter"
     },
     {
@@ -568,14 +568,14 @@
     {
       "borderColor": "#00000000",
       "groupId": "gl",
-      "id": "l-es",
-      "imageURL": "https://i.postimg.cc/vBD0cVm2/nederlands.png",
+      "id": "l-en-4",
+      "imageURL": "https://i.postimg.cc/8knCYy0r/nederlands.png",
       "isEnabled": true,
       "name": "NL",
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(dutch|nlsubs|flemish)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
+      "pattern": "(?i)\\b(dutch|nlsubs|flemish)\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled",
-      "textColor": "#FFFFFF",
+      "textColor": "#A0A0A0",
       "type": "filter"
     },
     {
