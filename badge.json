@@ -4,7 +4,7 @@
       "borderColor": "#FF858283",
       "color": "#000000",
       "id": "gq",
-      "isExpanded": true,
+      "isExpanded": false,
       "name": "Quality"
     },
     {
@@ -105,8 +105,21 @@
       "type": "filter"
     },
     {
-      "id": "q-w-2",
-      "name": "WebDL",
+      "id": "grl-hdtv-2",
+      "name": "HDTV",
+      "groupId": "gq",
+      "imageURL": "https://i.postimg.cc/y6RSpcTz/HDTV.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\bhdtv\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+      "type": "filter"
+    },
+    {
+      "id": "q-wr-6",
+      "name": "WebRip",
       "groupId": "gq",
       "imageURL": "https://i.postimg.cc/ZRRCLy5K/WEBRIP.png",
       "isEnabled": true,
@@ -114,7 +127,72 @@
       "tagColor": "#00000000",
       "textColor": "#FFFFFF",
       "borderColor": "#00000000",
-      "tagStyle": "filled",
+      "tagStyle": "filled"
+      "type": "filter"
+    },
+    {
+      "id": "q-wr-2-2",
+      "name": "BDrip",
+      "groupId": "gq",
+      "imageURL": "https://i.postimg.cc/DZZ8cbw3/BDRIP.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\b(?:bd[-_. ]?rip|bdrip)\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+      "type": "filter"
+    },
+    {
+      "id": "q-wr-3-3",
+      "name": "dvd",
+      "groupId": "gq",
+      "imageURL": "https://i.postimg.cc/RFFNTnVk/DVD.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\bdvd\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+      "type": "filter"
+    },
+    {
+      "id": "q-wr-4-2",
+      "name": "DVDrip",
+      "groupId": "gq",
+      "imageURL": "https://i.postimg.cc/xCCcPb12/DVDRIP.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\b(?:dvd[-_. ]?rip|dvdrip)\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+      "type": "filter"
+    },
+    {
+      "id": "q-wr-5-2",
+      "name": "DVDscr",
+      "groupId": "gq",
+      "imageURL": "https://i.postimg.cc/yddkTS8z/DVDSCR.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\b(?:dvd[-_. ]?scr|dvdscr)\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+      "type": "filter"
+    },
+    {
+      "id": "q-wr-3-2-2",
+      "name": "CAM",
+      "groupId": "gq",
+      "imageURL": "https://i.postimg.cc/jqfJ3Phb/CAM.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\bcam\\b",
+      "tagColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
       "type": "filter"
     },
     {
