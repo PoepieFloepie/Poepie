@@ -394,7 +394,7 @@
       "borderColor": "#00000000",
       "groupId": "ga",
       "id": "a-dp",
-      "imageURL": "https://i.postimg.cc/T1wLPz8H/DOLBY-DIGITAL-PLUS.png",
+      "imageURL": "https://i.postimg.cc/50KNM58k/DOLBY-DIGITAL-PLUS.png",
       "isEnabled": true,
       "name": "DD+",
       "pattern": "(?i)^(?=.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\batmos\\b)(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)",
