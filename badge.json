@@ -224,19 +224,6 @@
     {
       "borderColor": "#00000000",
       "groupId": "gv",
-      "id": "v-imax-e",
-      "imageURL": "https://i.postimg.cc/Fs8d8pCH/IMAX-ENHANCED.png",
-      "isEnabled": true,
-      "name": "IMAX Enhanced",
-      "pattern": "(?i)\\bimax[\\s._-]?enhanced\\b",
-      "tagColor": "#00000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#00000000",
-      "groupId": "gv",
       "id": "v-imax",
       "imageURL": "https://i.postimg.cc/5tmhYPZz/IMAX.png",
       "isEnabled": true,
