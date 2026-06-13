@@ -102,7 +102,6 @@
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
-      "type": "filter",
       "type": "filter"
     },
     {
@@ -337,6 +336,19 @@
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#000000",
+      "type": "filter"
+    },
+    {
+      "id": "ai",
+      "name": "AI Enhanced",
+      "groupId": "gv",
+      "imageURL": "https://i.postimg.cc/13G7fSMF/ai.png",
+      "isEnabled": true,
+      "pattern": "(?i)\\b(?:ai[-._ ]?upscaled|upscaled|remastered|ai)\\b",
+      "tagColor": "#00000000",
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "filled",
       "type": "filter"
     },
     {
