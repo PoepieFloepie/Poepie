@@ -121,7 +121,7 @@
       "id": "q-wr-6",
       "name": "WebRip",
       "groupId": "gq",
-      "imageURL": "https://i.postimg.cc/ZRRCLy5K/WEBRIP.png",
+      "imageURL": "https://i.postimg.cc/PJ943Xz6/WEBRIP.png",
       "isEnabled": true,
       "pattern": "(?i)\\b(?:web[-_. ]?rip|webrip)\\b",
       "tagColor": "#00000000",
