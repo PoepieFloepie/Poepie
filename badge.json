@@ -43,11 +43,11 @@
       "name": "Encoder"
     },
     {
-      "id": "g-ch",
-      "name": "Audio Channels",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": false
+      "borderColor": "#FF858283",
+      "color": "#000000",
+      "id": "gc",
+      "isExpanded": true,
+      "name": "Channels"
     },
     {
       "borderColor": "#FF858283",
@@ -59,7 +59,7 @@
     {
       "borderColor": "#FF858283",
       "color": "#000000",
-      "id": "gs-2",
+      "id": "gs",
       "isExpanded": false,
       "name": "Streaming"
     }
@@ -69,7 +69,7 @@
       "borderColor": "#00000000",
       "groupId": "gq",
       "id": "q-r",
-      "imageURL": "https://i.postimg.cc/TPT7bsHm/remux.png",
+      "imageURL": "https://i.postimg.cc/bJRw8MnQ/remux.png",
       "isEnabled": true,
       "name": "Remux",
       "pattern": "(?i)\\bremux\\b",
@@ -82,7 +82,7 @@
       "borderColor": "#00000000",
       "groupId": "gq",
       "id": "q-b",
-      "imageURL": "https://i.postimg.cc/x1vpcQgH/bray.png",
+      "imageURL": "https://i.postimg.cc/ZRL5ZgNp/bluray.png",
       "isEnabled": true,
       "name": "BluRay",
       "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
@@ -102,6 +102,7 @@
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
+      "type": "filter",
       "type": "filter"
     },
     {
@@ -339,19 +340,6 @@
       "type": "filter"
     },
     {
-      "id": "ai",
-      "name": "AI Enhanced",
-      "groupId": "gv",
-      "imageURL": "https://i.postimg.cc/13G7fSMF/ai.png",
-      "isEnabled": true,
-      "pattern": "(?i)\\b(?:ai[-._ ]?upscaled|upscaled|remastered|ai)\\b",
-      "tagColor": "#00000000",
-      "textColor": "#00000000",
-      "borderColor": "#00000000",
-      "tagStyle": "filled",
-      "type": "filter"
-    },
-    {
       "id": "bit-depth-8bit-2",
       "name": "8Bit",
       "groupId": "bit-depth",
@@ -547,68 +535,29 @@
       "type": "filter"
     },
     {
-      "id": "av1-2",
-      "name": "AV1",
-      "groupId": "ge",
-      "imageURL": "https://i.postimg.cc/mgYpt4VH/av1.png",
-      "isEnabled": true,
-      "pattern": "(?i)\\b(?:av01|av1)\\b",
-      "tagColor": "#00000000",
-      "textColor": "#00000000",
       "borderColor": "#00000000",
-      "tagStyle": "filled",
-      "type": "filter"
-    },
-    {
-      "id": "divx-2",
-      "name": "DivX",
-      "groupId": "ge",
-      "imageURL": "https://i.postimg.cc/0yYXbvZC/divx.png",
+      "groupId": "gc",
+      "id": "ch-71",
+      "imageURL": "https://i.postimg.cc/jdXp4f0j/7-1-audio.png",
       "isEnabled": true,
-      "pattern": "(?i)\\b(?:divx)\\b",
-      "tagColor": "#00000000",
-      "textColor": "#00000000",
-      "borderColor": "#00000000",
-      "tagStyle": "filled",
-      "type": "filter"
-    },
-    {
-      "id": "xvid-2",
-      "name": "XviD",
-      "groupId": "ge",
-      "imageURL": "https://i.postimg.cc/yN7QRGr0/xvid.png",
-      "isEnabled": true,
-      "pattern": "(?i)\\b(?:xvid)\\b",
-      "tagColor": "#00000000",
-      "textColor": "#00000000",
-      "borderColor": "#00000000",
-      "tagStyle": "filled",
-      "type": "filter"
-    },
-    {
-      "id": "ch71",
-      "groupId": "g-ch",
       "name": "7.1",
-      "isEnabled": true,
-      "imageURL": "https://i.postimg.cc/FHyC7vGJ/71.png",
-      "pattern": "(?i)\\b(7\\.1|7-1|8ch|8\\s*channel)\\b",
-      "textColor": "#00000000",
+      "pattern": "[^0-9][7-8][. ][01](?![0-9])",
       "tagColor": "#00000000",
-      "borderColor": "#00000000",
       "tagStyle": "filled",
+      "textColor": "#000000",
       "type": "filter"
     },
     {
-      "id": "ch51",
-      "groupId": "g-ch",
-      "name": "5.1",
-      "isEnabled": true,
-      "imageURL": "https://i.postimg.cc/4x62mGwY/51.png",
-      "pattern": "(?i)^(?=.*\\b(?:5\\.1|5-1|6ch|6\\s*channel)\\b)(?!.*\\b(?:7\\.1|7-1|8ch|8\\s*channel)\\b)(?!.*\\b(?:6\\.1|6-1)\\b)(?!.*[^0-9]6[ .][0-1]\\b)",
-      "textColor": "#00000000",
-      "tagColor": "#00000000",
       "borderColor": "#00000000",
+      "groupId": "gc",
+      "id": "ch-51",
+      "imageURL": "https://i.postimg.cc/28ws7WRy/5-1-audio.png",
+      "isEnabled": true,
+      "name": "5.1",
+      "pattern": "^(?=.*[^0-9]5[. ][01](?![0-9]))(?!.*[^0-9][7-8][. ][01](?![0-9]))",
+      "tagColor": "#00000000",
       "tagStyle": "filled",
+      "textColor": "#000000",
       "type": "filter"
     },
     {
@@ -626,9 +575,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-nflx-2",
-      "imageURL": "https://i.postimg.cc/Dwrp8h56/NETFLIX.png",
+      "groupId": "gs",
+      "id": "s-nflx",
+      "imageURL": "https://i.postimg.cc/HLBGx79g/netflix.png",
       "isEnabled": true,
       "name": "🍿 NETFLIX",
       "pattern": "(?i)\\b(nflx|nf|netflix)\\b",
@@ -639,9 +588,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-amzn-2",
-      "imageURL": "https://i.postimg.cc/ZqJ7NQDp/PRIME-VIDEO.png",
+      "groupId": "gs",
+      "id": "s-amzn",
+      "imageURL": "https://i.postimg.cc/SsN1gTW8/PRIME-VIDEO.png",
       "isEnabled": true,
       "name": "🍿 PRIME VIDEO",
       "pattern": "(?i)\\b(amzn|amazon|prime)\\b",
@@ -652,9 +601,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-atvp-2",
-      "imageURL": "https://i.postimg.cc/y8mpkKn3/appletv.png",
+      "groupId": "gs",
+      "id": "s-atvp",
+      "imageURL": "https://i.postimg.cc/MptjwdC4/Appletv.png",
       "isEnabled": true,
       "name": "🍿 APPLE TV+",
       "pattern": "(?i)\\b(atvp|appletv)\\b",
@@ -665,9 +614,22 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-hmax-2",
-      "imageURL": "https://i.postimg.cc/13G7fSMc/hbomax.png",
+      "groupId": "gs",
+      "id": "s-dsnp",
+      "imageURL": "https://i.postimg.cc/qvWxtyXw/DISNEY.png",
+      "isEnabled": true,
+      "name": "🍿 DISNEY+",
+      "pattern": "(?i)\\b(dsnp|dsny|disney|disney\\+)\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gs",
+      "id": "s-hmax",
+      "imageURL": "https://i.postimg.cc/mgKycCN0/HBOMAX.png",
       "isEnabled": true,
       "name": "🍿 MAX",
       "pattern": "(?i)\\b(hmax|hbomax|hbo|max)\\b",
@@ -678,9 +640,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-hulu-2",
-      "imageURL": "https://i.postimg.cc/XYf1pWx8/hulu.png",
+      "groupId": "gs",
+      "id": "s-hulu",
+      "imageURL": "https://i.postimg.cc/zG4FLKSS/HULU.png",
       "isEnabled": true,
       "name": "🍿 HULU",
       "pattern": "(?i)\\bhulu\\b",
@@ -691,9 +653,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-pcok-2",
-      "imageURL": "https://i.postimg.cc/dV2NLFn4/peacock.png",
+      "groupId": "gs",
+      "id": "s-pcok",
+      "imageURL": "https://i.postimg.cc/pL3J9zJN/PEACOCK.png",
       "isEnabled": true,
       "name": "🍿 PEACOCK",
       "pattern": "(?i)\\b(pcok|peac|peacock)\\b",
@@ -704,9 +666,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-pamp-2",
-      "imageURL": "https://i.postimg.cc/6prbyKzz/paramount.png",
+      "groupId": "gs",
+      "id": "s-pamp",
+      "imageURL": "https://i.postimg.cc/Gm6xBGxR/PARAMOUNT.png",
       "isEnabled": true,
       "name": "🍿 PARAMOUNT+",
       "pattern": "(?i)\\b(pmtp|pamp|paramount)\\b",
@@ -717,9 +679,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-crave-2",
-      "imageURL": "https://i.postimg.cc/nh4SCxTv/CRAVE.png",
+      "groupId": "gs",
+      "id": "s-crave",
+      "imageURL": "https://i.postimg.cc/T3KcYCm7/CRAVE.png",
       "isEnabled": true,
       "name": "🍿 CRAVE",
       "pattern": "(?i)\\bcrave\\b",
@@ -730,9 +692,9 @@
     },
     {
       "borderColor": "#00000000",
-      "groupId": "gs-2",
-      "id": "s-croll-2",
-      "imageURL": "https://i.postimg.cc/nh4SCxTB/CRUNCHYROL.png",
+      "groupId": "gs",
+      "id": "s-croll",
+      "imageURL": "https://i.postimg.cc/RZ2L3KQR/CRUNCHIROL.png",
       "isEnabled": true,
       "name": "🍿 CRUNCHY ROLL",
       "pattern": "(?i)\\bcrunch\\b",
@@ -740,18 +702,6 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "type": "filter"
-    },
-    {
-      "id": "s-dsnp-3",
-      "name": "🍿 DISNEY+",
-      "groupId": "gs-2",
-      "imageURL": "https://i.postimg.cc/qvWxtyXw/DISNEY.png",
-      "isEnabled": true,
-      "pattern": "(?i)\\b(dsnp|dsny|disney|disney\\+)\\b",
-      "tagColor": "#00000000",
-      "textColor": "#FFFFFF",
-      "borderColor": "#00000000",
-      "tagStyle": "filled"
     }
   ]
 }
