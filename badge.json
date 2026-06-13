@@ -579,7 +579,7 @@
       "imageURL": "https://i.postimg.cc/sxdsY5ZW/dutch1.png",
       "isEnabled": true,
       "name": "NL",
-      "pattern": "(?i)\\b(dutch|nlsubs|flemish)\\b",
+      "pattern": "(?i)\\b(dutch|nlsubs|flemish|nl-retailsub)\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled",
       "textColor": "#A0A0A0",
