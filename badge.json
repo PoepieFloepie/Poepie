@@ -327,6 +327,19 @@
       "type": "filter"
     },
     {
+      "id": "ai",
+      "groupId": "g-rng",
+      "name": "AI Enhanced",
+      "isEnabled": true,
+      "imageURL": "https://i.postimg.cc/13G7fSMF/ai.png",
+      "pattern": "(?i)\\b(?:ai[-._ ]?upscaled|upscaled|remastered|ai)\\b",
+      "textColor": "#00000000",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "filled",
+      "type": "filter"
+    },
+    {
       "borderColor": "#00000000",
       "groupId": "gv",
       "id": "a-dv",
